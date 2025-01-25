@@ -1,0 +1,54 @@
+sudo apt install git :- To Install Git 
+
+git --version :- To Check Version of Git
+
+git config --global user.name "Username" :- To Set Username (GitHub)
+
+git config --global user.email "Email" :- To Set Email (GitHub)
+
+git config --list :- To List/View the Username & Email 
+
+git init :- To Initialize Git in a Folder 
+
+git config --global init.defaultBranch <branch name> :- To Change the Name of Default Master Branch
+
+git remote add origin <Link> :- To Connect Local Repository to GitHub Remote Repository
+
+git clone <Link> : To Clone Repository into Local Machine 
+
+git remote set-url origin https://<token>@github.com/<username>/<repo> :- To Use the Personal Access Token For a Repo
+
+git status :- To Track/Check the Status of Untracked File 
+
+git add <filename> :- To Track the File
+
+git add . :- To Track All Files 
+
+git commit -m "Message" :- To Commit the Changes 
+
+git push origin master/main :- To Push the Local Changes to GitHub
+
+git push -u orign master/main :- Sets up Upstream Branch for Current Local Directory 
+
+git pull origin master : To Fetch the Latest Changes
+
+git checkout -b main origin/main :- Used to Create a New local branch main , Switch to it to make it Current Branch & Set it to Track origin/main that is the branch in remote repository 
+
+git checkout :- Used to Switch Branches
+
+-b <branch name> :- Create New Branch 
+
+origin/main :- origin is the default name for Remote Repository , main is the branch in Remote Repository & this says Local Branch should Track it
+
+git branch -M <branch name> :- Rename the Cirrent Branch 
+
+git branch :- To check all the branches & marks * to the Current Branch
+
+git push origin --delete <branch name> :- To Delete the Branch
+
+git remote -v :- To List all the Configured Local Directory
+
+git remote remove origin :- To Remove Existing Origin
+
+
+
