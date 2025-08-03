@@ -1,4 +1,4 @@
-// Pattern 3 - Triangle Pattern for Numbers
+// Pattern 4 - Triangle Pattern for Characters
 #include<iostream>
 using namespace std ;
 
