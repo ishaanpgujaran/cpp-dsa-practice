@@ -16,6 +16,12 @@ git remote add origin <Link> :- To Connect Local Repository to GitHub Remote Rep
 
 git clone <Link> : To Clone Repository into Local Machine 
 
+git config --global credential.helper store : To Store Credentials in Plain Text (Not Recommended for Security Reasons - Use Only in Your Laptop)
+                                               If Password asked then Input PAT , then on Push will sotre Credentials
+                                               Best is to Simply Provide PAT without Storing
+  
+git config --global credential.helper cache : To Cache Credentials in Memory for Use by Future Git Commands (Recommended)   
+
 git remote set-url origin https://<token>@github.com/<username>/<repo> :- To Use the Personal Access Token For a Repo
 
 git status :- To Track/Check the Status of Untracked File 
