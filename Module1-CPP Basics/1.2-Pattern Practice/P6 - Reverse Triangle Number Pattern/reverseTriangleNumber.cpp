@@ -1,9 +1,9 @@
-// Pattern 6 - Reverse Triangle Pattern
+// Pattern 6 - Reverse Triangle Number Pattern
 #include<iostream>
 using namespace std ;
 
 int main() {
-    cout << "\n** Pattern 6 - Reverse Triangle Pattern **\n" << endl;
+    cout << "\n** Pattern 6 - Reverse Triangle Number Pattern **\n" << endl;
 
     // Define the Number of Lines to Print
     int n = 9 ; 
