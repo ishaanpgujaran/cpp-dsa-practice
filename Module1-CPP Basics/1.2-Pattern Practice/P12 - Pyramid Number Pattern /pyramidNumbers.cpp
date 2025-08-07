@@ -28,7 +28,7 @@ int main() {
             cout << j ;
         }
         
-        // Move to Next Line After all 3 Loops Complete
+        // Move to Next Line After all 3 Loops Complete in One Line
         cout << endl ;
     }
     return 0 ;
